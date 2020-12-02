@@ -1,0 +1,76 @@
+:root {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+}
+* {
+    box-sizing: border-box;
+}
+body {
+
+}
+.user-card-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    grid-template-rows: repeat(3, 230px);
+    grid-gap: 2em;
+    justify-items: center;
+    width: 90%;
+    margin: 30px auto;
+}
+.user-card {
+    max-width: 400px;
+    width: 100%;
+    padding: 30px;
+    border-radius: 30px;
+    position: relative;
+    font-size: 1.2rem;
+}
+.user-card-1 {
+    background-image: linear-gradient(to right, #ffbd9a, #faab91, #f5988a, #ed8687, #e47486);
+}
+.user-card-2 {
+    background-image: linear-gradient(to right, #8bc8f5, #72b6eb, #58a4e0, #3c92d6, #1380cb);
+}
+.user-card-3 {
+    background-image: linear-gradient(to right, #7bd8d1, #65ccc2, #4ebfb3, #33b3a3, #04a794);
+}
+.card-name,
+.card-description {
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.card-name,
+.card-balance {
+    margin-bottom: 20px;
+}
+.card-balance {
+    font-size: 2rem;
+    font-weight: 700;
+}
+.card-icon {
+    position: absolute;
+    top: 2em;
+    right: 2em;
+    width: 30px;
+    height: 30px;
+}
+.card-description {
+    margin-top: 70px;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+.circle-img {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background: rgba(255,255,255,.3);
+    border-radius: 50%;
+}
+.circle-1 {
+    bottom: 30%;
+    left: 70%;
+}
+.circle-2 {
+    top: 50%;
+    left: 60%;
+}
