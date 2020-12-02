@@ -11,7 +11,7 @@ body {
 .bank-card-wrapper {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-    grid-template-rows: repeat(3, 230px);
+    grid-template-rows: repeat(3, 240px);
     grid-gap: 2em;
     justify-items: center;
     max-width: 1500px;
@@ -21,7 +21,7 @@ body {
     max-width: 400px;
     width: 100%;
     padding: 30px;
-    border-radius: 30px;
+    border-radius: 5px;
     position: relative;
     font-size: 1.2rem;
 }
@@ -43,16 +43,19 @@ body {
 .card-balance {
     margin-bottom: 20px;
 }
+.card-name {
+    display: inline-block;
+}
+.card-icon {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    right: 1.8em;
+}
 .card-balance {
     font-size: 2rem;
     font-weight: 700;
-}
-.card-icon {
-    position: absolute;
-    top: 2em;
-    right: 2em;
-    width: 30px;
-    height: 30px;
 }
 .card-description {
     margin-top: 70px;
