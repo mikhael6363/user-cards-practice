@@ -43,15 +43,16 @@ body {
 .card-balance {
     margin-bottom: 20px;
 }
-.card-name {
-    display: inline-block;
+.flex-wrapper {
+    display: flex;
+    justify-content: space-between;
 }
 .card-icon {
-    display: inline-block;
+    /* display: inline-block; */
     width: 25px;
     height: 25px;
-    position: absolute;
-    right: 1.8em;
+    /* position: absolute;
+    right: 1.8em; */
 }
 .card-balance {
     font-size: 2rem;
