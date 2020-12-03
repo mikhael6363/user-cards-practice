@@ -25,13 +25,13 @@ body {
     position: relative;
     font-size: 1.2rem;
 }
-.weekly-sales-card {
+.bank-card:nth-child(3n+1) {
     background-image: linear-gradient(to right, #ffbd9a, #faab91, #f5988a, #ed8687, #e47486);
 }
-.weekly-order-card {
+.bank-card:nth-child(3n+2) {
     background-image: linear-gradient(to right, #8bc8f5, #72b6eb, #58a4e0, #3c92d6, #1380cb);
 }
-.visitors-card {
+.bank-card:nth-child(3n+3) {
     background-image: linear-gradient(to right, #7bd8d1, #65ccc2, #4ebfb3, #33b3a3, #04a794);
 }
 .card-name,
