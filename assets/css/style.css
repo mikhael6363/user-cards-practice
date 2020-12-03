@@ -45,9 +45,9 @@ body {
 }
 .flex-wrapper {
     display: flex;
-    justify-content: space-between;
 }
 .card-icon {
+    margin-left: auto;
     width: 25px;
     height: 25px;
 }
@@ -65,7 +65,7 @@ body {
     overflow: hidden;
 }
 .bank-card::before,
-.bank-card::after {
+.bank-card::after { 
     content:"";
     display: inline-block;
     width: 200px;
